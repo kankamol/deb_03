@@ -1,0 +1,42 @@
+greenery:
+
+  outputs:
+    dbt_bass:
+      type: postgres
+      threads: 1
+      host: localhost
+      port: 5432
+      user: postgres
+      pass: "{{ env_var('DBT_ENV_SECRET_PG_PASSWORD') }}"
+      dbname: greenery
+      schema: dbt_bass
+
+    prod:
+      type: postgres
+      threads: 1
+      host: localhost
+      port: 5432
+      user: postgres
+      pass: "{{ env_var('DBT_ENV_SECRET_PG_PASSWORD') }}"
+      dbname: greenery
+      schema: prod
+
+    dbt_bass_bigquery:
+      type: bigquery
+      method: service-account
+      project: zeta-bebop-384409
+      dataset: dbt_bass
+      threads: 1
+      keyfile: /workspaces/deb_03/00-bootcamp-project/zeta-bebop-384409-eca552063775.json
+      location: asia-southeast1
+
+    prod_bigquery:
+      type: bigquery
+      method: service-account
+      project: zeta-bebop-384409
+      dataset: deb_bootcamp
+      threads: 1
+      keyfile: /workspaces/deb_03/00-bootcamp-project/zeta-bebop-384409-eca552063775.json
+      location: asia-southeast1
+
+  target: dbt_bass_bigquery

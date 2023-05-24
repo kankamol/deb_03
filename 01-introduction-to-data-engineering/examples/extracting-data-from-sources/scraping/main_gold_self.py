@@ -21,14 +21,16 @@ class MySpider(scrapy.Spider):
         rows = table.css("tr")
         # rows = table.xpath("//tr")
         # print(rows)
-
-        for row in rows:
-            print(row.css("td::text").extract())
-            # print(row.xpath("td//text()").extract())
-
-        # Write to CSV
-        # YOUR CODE HERE
-        
+        # name of csv file 
+        filename = "gold_self.csv"
+    
+        # writing to csv file 
+        with open(filename, 'w') as csvfile:
+            csvwriter = csv.writer(csvfile) 
+            for row in rows:
+                csvwriter.writerow(row.css("td::text").extract())
+                #print(row.css("td::text").extract())
+                # print(row.xpath("td//text()").extract())
 
 
 if __name__ == "__main__":

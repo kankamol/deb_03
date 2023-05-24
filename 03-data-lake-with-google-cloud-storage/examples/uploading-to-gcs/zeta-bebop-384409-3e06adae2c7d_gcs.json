@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "zeta-bebop-384409",
+  "private_key_id": "3e06adae2c7ddf116b14d6f8d8b9363db43e70cc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCepitjahmU0Ywa\n93va+7+L3nFb1lXII8/R7U4jK8Uwkf9vv4xuvEXoQyBrg0Pru0m67yTw/4wxHPSN\nIOaSCo9eTqGOMzEht31uZLfJ3MB4fLIrw/Hj/Gjrh5vgzxlBxkQ1RLB1B/dQw/NT\nzh1DMhy4ha3N0h0MKzhZTo3DvXhsFTLmaswFtlwsvc7GqDWDGhK8zJq9XJGtkrMV\nnzUqzqcCdzRKIlrBIcGvkLlRkez8MjL0RiaANvf5+HUWwBj7Ck5xS4kYHeGYtICo\nAXN8C0m4lhPzYuTaPV+JoMi8ZBrIqPMQTBRWChOTg6fBUsir5aBK7sHrZ1SR4Amm\nedp8m3BfAgMBAAECggEAAafI8eBLyISg1cnCgMTbO8WXY3VKrzZ/zzMys5s/twOg\n5wa5m5r+hN2XaAzoMSqgPyA4pfp6acTwso6xKyOqB3f4A78Jeu0Q0k/8pnpqFc2G\npruycdApt3b2TPKKWEmD5F2Z1zNCPTkGh67GQpfL6MOOPvVQET2PAuIcEtGtYj2O\nVsLMp/6v4QT3AMpG5d4oiQJtPCDH98qoSNLohPDPAtnTsG+TjH6TxAd36RwsvMAl\nGZKDEF3CT671OpsIAKFz6BFdM4AD7+Cj15h9jjqnHaYs+UCKhKJRX9tWxT2lAO/J\nubnoFfP7yevkTfA5CnITnLpj3PnGEHAwyTNpnRhFQQKBgQDQPifce/+LRNKDl+9i\nJ4iqkxa9Hd6RHA4TxKFI58TdjaxmBUJ+4UrqRVB3tFfXN6qmQsXfWBp7/z11W5Ay\n19U+R3Cy/pg7xYRzyRduexmJXZxuyIZMSMeG8dlr9x/0pMIrN9pmE/SGmOFQoGtW\nSqM4GQIuzFL5nIR6rWgML8LAowKBgQDDCGOtkD/JtVl+73h+P+tfAr8l67SIUgCz\nViVPv13XLijKqqzFvvBCnQfqbVZS4CvQNp4rAXgVMfWn7488sg5ZJdhieXDk/x2l\no8qAgvZ1faa5YyMPn3Z4yDU/kDjEUgZ84vGpR4JFSbKykKd/4EWmViGKu9D4njOw\nHTujdqsBFQKBgQCzEF9yZmWtOfbTFTjQ7DHGi0iIQkD6AmfQc8pESJet838FEwzE\n0bF7lTLGXBsUg1eIM+62SKotaaNNYPiz34gMT54HLIl3DDcC4S324H9q8UXstR1W\nR1bbIOfWwN+HnI0iYJq6H/qqKpfEnsztnKyRNl/8IdJPtVjtrGLF5+PNhQKBgBQ2\nYl4yfOniqYvGNa6f4TzPhA/iBau7E+eCHgvNwWPznLakSZOU3kGJFLDu8+tS4DeL\n8YhzdoZ7zwHAig+4RFRo36wU+eZBqkjoWKxI5lH227iK1a9gz15lIV+dCsUN2y5G\nNtVcW9vib2qiIznVfGJousEuBdI+Uw0FepDOU5qhAoGBAI4DNMq5dIDH0E95F8Sb\ndNOw4jaRbd0LMXZqLFiNJ6gB+FJ9f1u1pYZtC12cWo4opZX/cq9dE5JTioGKI/Hr\nINdOhtUDoLmlXVGB5yy7SgCIRrwmUCm4PvUKAgF9+dkDKAEzC5QV5UYuJZra8cpE\nSeNydlVqTVE0hz6ArbvdBwkk\n-----END PRIVATE KEY-----\n",
+  "client_email": "deb-workshop-day-3-gcs@zeta-bebop-384409.iam.gserviceaccount.com",
+  "client_id": "116295673498936068339",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/deb-workshop-day-3-gcs%40zeta-bebop-384409.iam.gserviceaccount.com"
+}
